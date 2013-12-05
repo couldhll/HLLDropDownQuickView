@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2A50E2818443CFE00F292E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A50E2718443CFE00F292E6 /* Foundation.framework */; };
+		B2A50E2D18443CFE00F292E6 /* HLLDropDownQuickView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2A50E2C18443CFE00F292E6 /* HLLDropDownQuickView.h */; };
+		B2A50E2F18443CFE00F292E6 /* HLLDropDownQuickView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A50E2E18443CFE00F292E6 /* HLLDropDownQuickView.m */; };
+		B2A50E3618443CFE00F292E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A50E3518443CFE00F292E6 /* XCTest.framework */; };
+		B2A50E3718443CFE00F292E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A50E2718443CFE00F292E6 /* Foundation.framework */; };
+		B2A50E3918443CFE00F292E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A50E3818443CFE00F292E6 /* UIKit.framework */; };
+		B2A50E3C18443CFE00F292E6 /* libHLLDropDownQuickView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A50E2418443CFE00F292E6 /* libHLLDropDownQuickView.a */; };
+		B2A50E4218443CFE00F292E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2A50E4018443CFE00F292E6 /* InfoPlist.strings */; };
+		B2A50E4418443CFE00F292E6 /* HLLDropDownQuickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A50E4318443CFE00F292E6 /* HLLDropDownQuickViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2A50E3A18443CFE00F292E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A50E1C18443CFE00F292E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A50E2318443CFE00F292E6;
+			remoteInfo = HLLDropDownQuickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2A50E2218443CFE00F292E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B2A50E2D18443CFE00F292E6 /* HLLDropDownQuickView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2A50E2418443CFE00F292E6 /* libHLLDropDownQuickView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHLLDropDownQuickView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A50E2718443CFE00F292E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2A50E2B18443CFE00F292E6 /* HLLDropDownQuickView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLLDropDownQuickView-Prefix.pch"; sourceTree = "<group>"; };
+		B2A50E2C18443CFE00F292E6 /* HLLDropDownQuickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLDropDownQuickView.h; sourceTree = "<group>"; };
+		B2A50E2E18443CFE00F292E6 /* HLLDropDownQuickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLDropDownQuickView.m; sourceTree = "<group>"; };
+		B2A50E3418443CFE00F292E6 /* HLLDropDownQuickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLDropDownQuickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A50E3518443CFE00F292E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B2A50E3818443CFE00F292E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2A50E3F18443CFE00F292E6 /* HLLDropDownQuickViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLLDropDownQuickViewTests-Info.plist"; sourceTree = "<group>"; };
+		B2A50E4118443CFE00F292E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2A50E4318443CFE00F292E6 /* HLLDropDownQuickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLDropDownQuickViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2A50E2118443CFE00F292E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A50E2818443CFE00F292E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A50E3118443CFE00F292E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A50E3C18443CFE00F292E6 /* libHLLDropDownQuickView.a in Frameworks */,
+				B2A50E3618443CFE00F292E6 /* XCTest.framework in Frameworks */,
+				B2A50E3918443CFE00F292E6 /* UIKit.framework in Frameworks */,
+				B2A50E3718443CFE00F292E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2A50E1B18443CFE00F292E6 = {
+			isa = PBXGroup;
+			children = (
+				B2A50E2918443CFE00F292E6 /* HLLDropDownQuickView */,
+				B2A50E3D18443CFE00F292E6 /* HLLDropDownQuickViewTests */,
+				B2A50E2618443CFE00F292E6 /* Frameworks */,
+				B2A50E2518443CFE00F292E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2A50E2518443CFE00F292E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A50E2418443CFE00F292E6 /* libHLLDropDownQuickView.a */,
+				B2A50E3418443CFE00F292E6 /* HLLDropDownQuickViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A50E2618443CFE00F292E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2A50E2718443CFE00F292E6 /* Foundation.framework */,
+				B2A50E3518443CFE00F292E6 /* XCTest.framework */,
+				B2A50E3818443CFE00F292E6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2A50E2918443CFE00F292E6 /* HLLDropDownQuickView */ = {
+			isa = PBXGroup;
+			children = (
+				B2A50E2C18443CFE00F292E6 /* HLLDropDownQuickView.h */,
+				B2A50E2E18443CFE00F292E6 /* HLLDropDownQuickView.m */,
+				B2A50E2A18443CFE00F292E6 /* Supporting Files */,
+			);
+			path = HLLDropDownQuickView;
+			sourceTree = "<group>";
+		};
+		B2A50E2A18443CFE00F292E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A50E2B18443CFE00F292E6 /* HLLDropDownQuickView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2A50E3D18443CFE00F292E6 /* HLLDropDownQuickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2A50E4318443CFE00F292E6 /* HLLDropDownQuickViewTests.m */,
+				B2A50E3E18443CFE00F292E6 /* Supporting Files */,
+			);
+			path = HLLDropDownQuickViewTests;
+			sourceTree = "<group>";
+		};
+		B2A50E3E18443CFE00F292E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A50E3F18443CFE00F292E6 /* HLLDropDownQuickViewTests-Info.plist */,
+				B2A50E4018443CFE00F292E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2A50E2318443CFE00F292E6 /* HLLDropDownQuickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A50E4718443CFE00F292E6 /* Build configuration list for PBXNativeTarget "HLLDropDownQuickView" */;
+			buildPhases = (
+				B2A50E2018443CFE00F292E6 /* Sources */,
+				B2A50E2118443CFE00F292E6 /* Frameworks */,
+				B2A50E2218443CFE00F292E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLLDropDownQuickView;
+			productName = HLLDropDownQuickView;
+			productReference = B2A50E2418443CFE00F292E6 /* libHLLDropDownQuickView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2A50E3318443CFE00F292E6 /* HLLDropDownQuickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A50E4A18443CFE00F292E6 /* Build configuration list for PBXNativeTarget "HLLDropDownQuickViewTests" */;
+			buildPhases = (
+				B2A50E3018443CFE00F292E6 /* Sources */,
+				B2A50E3118443CFE00F292E6 /* Frameworks */,
+				B2A50E3218443CFE00F292E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2A50E3B18443CFE00F292E6 /* PBXTargetDependency */,
+			);
+			name = HLLDropDownQuickViewTests;
+			productName = HLLDropDownQuickViewTests;
+			productReference = B2A50E3418443CFE00F292E6 /* HLLDropDownQuickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2A50E1C18443CFE00F292E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CouldHll;
+			};
+			buildConfigurationList = B2A50E1F18443CFE00F292E6 /* Build configuration list for PBXProject "HLLDropDownQuickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2A50E1B18443CFE00F292E6;
+			productRefGroup = B2A50E2518443CFE00F292E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2A50E2318443CFE00F292E6 /* HLLDropDownQuickView */,
+				B2A50E3318443CFE00F292E6 /* HLLDropDownQuickViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2A50E3218443CFE00F292E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A50E4218443CFE00F292E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2A50E2018443CFE00F292E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A50E2F18443CFE00F292E6 /* HLLDropDownQuickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A50E3018443CFE00F292E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A50E4418443CFE00F292E6 /* HLLDropDownQuickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2A50E3B18443CFE00F292E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2A50E2318443CFE00F292E6 /* HLLDropDownQuickView */;
+			targetProxy = B2A50E3A18443CFE00F292E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2A50E4018443CFE00F292E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A50E4118443CFE00F292E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2A50E4518443CFE00F292E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2A50E4618443CFE00F292E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2A50E4818443CFE00F292E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HLLDropDownQuickView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLDropDownQuickView/HLLDropDownQuickView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B2A50E4918443CFE00F292E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HLLDropDownQuickView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLDropDownQuickView/HLLDropDownQuickView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B2A50E4B18443CFE00F292E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLDropDownQuickView/HLLDropDownQuickView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HLLDropDownQuickViewTests/HLLDropDownQuickViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2A50E4C18443CFE00F292E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLLDropDownQuickView/HLLDropDownQuickView-Prefix.pch";
+				INFOPLIST_FILE = "HLLDropDownQuickViewTests/HLLDropDownQuickViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2A50E1F18443CFE00F292E6 /* Build configuration list for PBXProject "HLLDropDownQuickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A50E4518443CFE00F292E6 /* Debug */,
+				B2A50E4618443CFE00F292E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A50E4718443CFE00F292E6 /* Build configuration list for PBXNativeTarget "HLLDropDownQuickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A50E4818443CFE00F292E6 /* Debug */,
+				B2A50E4918443CFE00F292E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2A50E4A18443CFE00F292E6 /* Build configuration list for PBXNativeTarget "HLLDropDownQuickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A50E4B18443CFE00F292E6 /* Debug */,
+				B2A50E4C18443CFE00F292E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2A50E1C18443CFE00F292E6 /* Project object */;
+}
